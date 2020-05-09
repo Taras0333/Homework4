@@ -4,6 +4,7 @@ html, body{
 }
 body{
 	background: url(./images/background-img.svg);
+	position: absolute;
 }
 .cover{
 	background: linear-gradient(90deg, 
@@ -23,6 +24,7 @@ header{
 	text-transform: uppercase;
 	margin-left: 166px;
 	margin-top: 61px;
+	cursor: pointer;
 }
 .title{
 	font-weight: bold;
@@ -44,4 +46,39 @@ header{
 	font-size: 14px;
 	line-height: 17px;
 	margin-right: 24px;
+	cursor: pointer;
+}
+.languages{
+	display: flex;
+	align-items: center;
+	text-transform: uppercase;
+	margin-top: 55px;
+	margin-left: 80px;
+}
+.flag-icon{
+	width: 32px;
+	cursor: pointer;
+}
+.language{
+	margin-left: 12px;
+	margin-right: 8px;
+	cursor: pointer;
+}
+.button-login{
+	border: 1px solid #FFFFFF;
+	border-radius: 6px;
+	box-sizing: border-box;
+	background-color: transparent;
+	outline: none;
+	color: #FFFFFF;
+	padding-top: 11px;
+	padding-bottom: 11px;
+	padding-left: 29px;
+	padding-right: 29px;
+	margin-left: 29px;
+	margin-top: 50px;
+	cursor: pointer;
+}
+.arrow-icon{
+	cursor: pointer;
 }
