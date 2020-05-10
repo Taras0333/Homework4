@@ -6,7 +6,6 @@ body{
 	background: url(./images/background-img.svg);
 	position: absolute;
 	background-repeat: no-repeat;
-    background-size: cover;
     background-position: top left;
 }
 .cover{
@@ -23,7 +22,6 @@ header{
 }
 main{
 	color: #FFFFFF;
-	display: flex;
     align-items: center;
 }
 .title-web{
@@ -95,12 +93,10 @@ main{
 	font-weight: bold;
 	font-size: 72px;
 	line-height: 86px;
-	display: flex;
-	align-items: center;
 	letter-spacing: 0.05em;
 	text-transform: uppercase;
-	margin-left: 431px;
-	margin-top: 177px;
+	margin-top: 168px;
+    margin-left: 434px;
 }
 .discription{
 	font-style: normal;
@@ -108,29 +104,21 @@ main{
 	font-size: 24px;
 	line-height: 150%;
 	text-align: center;
-	margin-top: 39px;
-	margin-left: 65px;
-}
-.center-conteiner{
-	width: 100%;
+	position: absolute;
+	width: 540px;
+	height: 124px;
+	left: 450px;
+	top: 382px;
 }
 .bottom-button{
-	margin-left: 640px;
-    border: none;
-    border-radius: 6px;
-    padding-top: 17px;
-    padding-bottom: 17px;
-    padding-left: 53px;
-    padding-right: 53px;
-    background: #FFFFFF;
-    font-style: normal;
-	font-weight: 600;
-	font-size: 14px;
-	line-height: 17px;
-	display: flex;
-	align-items: center;
-	text-transform: uppercase;
-	color: #ED4C5C;
-	margin-top: 50px;
+	position: absolute;
+	width: 160px;
+	height: 50px;
+	left: 640px;
+	top: 545px;
+	background: #FFFFFF;
+	border-radius: 6px;
+	border: none;
+	color: #D52047;
 	cursor: pointer;
 }
