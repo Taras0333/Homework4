@@ -1,15 +1,18 @@
 html, body{
 	font-family: "Lato";
 	font-size: 14px;
-}
-.cover{
 	background: linear-gradient(90deg, rgba(213, 32, 71, 0.8) 0%, rgba(238, 61, 27, 0.8) 100%), url(./images/background-img.svg);
-	min-height: 100vh;
-	min-width: 100vw;
+	height: 100vh;
+	width: 100vw;
 	position: absolute;
     background-repeat: no-repeat;
     background-position: top left;
+    overflow-y: hidden;
+    overflow-x: hidden;
+    margin: auto;
+    box-sizing: border-box;
 }
+
 header{
 	color: #FFFFFF;
 	display: flex;
@@ -48,6 +51,9 @@ main{
 	line-height: 17px;
 	margin-right: 24px;
 	cursor: pointer;
+}
+.last-menu{
+	margin-right: 0px;
 }
 .languages{
 	display: flex;
