@@ -3,15 +3,13 @@ html, body{
 	font-size: 14px;
 }
 body{
-	background: url(./images/background-img.svg);
 	position: absolute;
 	background-repeat: no-repeat;
     background-position: top left;
+    background-size: 100vw;
 }
 .cover{
-	background: linear-gradient(90deg, 
-		rgba(213, 32, 71, 0.8) 0%, 
-		rgba(238, 61, 27, 0.8) 100%);
+	background: linear-gradient(90deg, rgba(213, 32, 71, 0.8) 0%, rgba(238, 61, 27, 0.8) 100%), url(./images/background-img.svg);
 	min-height: 100vh;
 	min-width: 100vw;
 }
