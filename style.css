@@ -15,6 +15,7 @@ html, body{
 header{
 	color: #FFFFFF;
 	display: flex;
+	justify-content: center;
 }
 main{
 	color: #FFFFFF;
@@ -24,7 +25,7 @@ main{
 	display: flex;
 	align-items: center;
 	text-transform: uppercase;
-	margin-left: 166px;
+	margin-left: 35px;
 	margin-top: 61px;
 	cursor: pointer;
 }
