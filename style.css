@@ -15,11 +15,10 @@ html, body{
 header{
 	color: #FFFFFF;
 	display: flex;
-    align-items: center;
 }
 main{
 	color: #FFFFFF;
-    align-items: center;
+    text-align: center;
 }
 .title-web{
 	display: flex;
@@ -41,7 +40,7 @@ main{
 	align-items: center;
 	text-transform: uppercase;
 	margin-top: 58px;
-	margin-left: 161px;
+	margin-left: 133px;
 }
 .menu{
 	font-style: normal;
@@ -59,7 +58,7 @@ main{
 	align-items: center;
 	text-transform: uppercase;
 	margin-top: 55px;
-	margin-left: 80px;
+	margin-left: 86px;
 }
 .flag-icon{
 	width: 32px;
@@ -81,7 +80,7 @@ main{
 	padding-bottom: 11px;
 	padding-left: 29px;
 	padding-right: 29px;
-	margin-left: 29px;
+	margin-left: 33px;
 	margin-top: 50px;
 	cursor: pointer;
 }
@@ -96,22 +95,15 @@ main{
 	letter-spacing: 0.05em;
 	text-transform: uppercase;
 	margin-top: 168px;
-    margin-left: 434px;
 }
 .discription{
 	font-style: normal;
 	font-weight: 600;
 	font-size: 24px;
 	line-height: 150%;
-	text-align: center;
-	position: absolute;
-	width: 540px;
-	height: 124px;
-	left: 450px;
-	top: 382px;
+	margin-top: 35px;
 }
 .bottom-button{
-	position: absolute;
 	width: 160px;
 	height: 50px;
 	left: 640px;
@@ -121,4 +113,5 @@ main{
 	border: none;
 	color: #D52047;
 	cursor: pointer;
+	margin-top: 38px;
 }
